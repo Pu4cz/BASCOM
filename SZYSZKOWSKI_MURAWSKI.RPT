@@ -1,0 +1,49 @@
+Compiler   : BASCOM 8051 LIBRARY V 2.14
+Processor  : 80515C
+Report     : SZYSZKOWSKI_MURAWSKI
+Date       : 09-09-2018
+Time       : 16:57:27
+
+Baud Timer : Internal baudrate generator
+Baudrate   : 2330.43294270833
+Frequency  : 3579545
+Clock div. : 6
+ROM start  : &H0
+RAM start  : &H0
+LCD mode   : 4-bit
+StackStart : &H3D
+Used ROM   : &H89B     2203 (dec)  > doesn't fit into selected codesize : 2048
+
+--------------------------------------------------------------------------------
+Variable                         Type            Address(hex)   Address(dec)
+--------------------------------------------------------------------------------
+
+ERR                              Bit               20.4
+
+
+STAN_OBECNY                      Byte              0032          50 
+STAN_POPRZEDNI                   Byte              0033          51 
+STAN_ODB                         Byte              0034          52 
+NUM_AB                           Byte              0035          53 
+ODB1_SERVICE                     Byte              0036          54 
+ODB2_SERVICE                     Byte              0037          55 
+LICZNIK                          Byte              0038          56 
+ILE_ZAJETYCH_ODB                 Byte              0039          57 
+KOLEJKA_1                        Byte              003A          58 
+KOLEJKA_2                        Byte              003B          59 
+X                                Byte              003C          60 
+
+
+
+
+
+
+
+
+
+CONSTANTS
+--------------------------------------------------------------------------------
+Constant                         Value
+--------------------------------------------------------------------------------
+_BUILDVERSION                    213
+
